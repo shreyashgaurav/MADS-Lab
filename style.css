@@ -165,7 +165,21 @@ body {
     justify-content: center;
     font-size: 5rem;
     color: var(--color-primary);
+    overflow: hidden; /* 🟢 hides anything outside the circle */
+    position: relative; /* keeps image positioned inside */
 }
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;    /* 🟢 fills container without distortion */
+    object-position: center;
+    display: block;
+    border-radius: 50%;   /* optional: ensures perfect round crop */
+}
+
+
+
 
 .profile-card h3 {
     font-size: 1.5rem;
