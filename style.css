@@ -213,6 +213,24 @@ body {
 
 
 
+
+.apply-btn {
+    background-color: #4CAF50;
+    color: white !important;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.apply-btn:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+
+
+
 /* .team-member h4, .alumni-item h4 {
     display: flex;
     justify-content: space-between;
