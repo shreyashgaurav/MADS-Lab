@@ -181,27 +181,20 @@ body {
 
 
 
-.team-member, .alumni-item {
-    position: relative;
-    padding-right: 40px; /* Make space for the icon */
+.team-member h4, .alumni-item h4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .linkedin-link {
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    transform: translateY(-50%);
+    margin-left: auto;
     transition: transform 0.2s ease;
 }
 
 .linkedin-link:hover {
-    transform: translateY(-50%) scale(1.1);
+    transform: scale(1.1);
 }
-
-.linkedin-link svg {
-    display: block;
-}
-
 
 
 
